@@ -1,0 +1,26 @@
+.portfolio-item {
+    position: relative;
+    float: left;
+    width: 285px;
+    padding: 0 13px 25px 25px;
+}
+
+h3 {
+    margin: 0 auto;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+.portfolio-name {
+    position: absolute;
+    width: calc(100% - 38px);
+    background: #4aaaa5;
+    bottom: 50px;
+    padding: 14px 0;
+}
+
+.portfolio-images {
+    padding: 0 25px;
+}

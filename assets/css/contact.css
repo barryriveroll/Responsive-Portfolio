@@ -1,0 +1,38 @@
+.inputs {
+    padding: 0 25px;
+}
+  
+.input-width {
+    width: 896px;
+    margin: 3px 0 10px 0;
+    padding: 6px 0px 6px 10px;
+    font-size: 16px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.input-width::placeholder {
+  color: rgb(134, 134, 134);
+}
+
+.button {
+    background: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #8dd8d4;
+}
+
+.button:active {
+    background: #29706d;
+}
+
+textarea {
+    max-width: 896px;
+}
