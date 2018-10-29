@@ -34,5 +34,16 @@
 }
 
 textarea {
-    max-width: 896px;
+    resize: vertical;
+    height: 200px;
+}
+
+.input-width {
+    width: 98%;
+}
+
+@media only screen and (max-width: 640px) {
+    html, body {
+        height: calc(100% - 85px);
+    }
 }

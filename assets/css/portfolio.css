@@ -21,6 +21,25 @@ h3 {
     padding: 14px 0;
 }
 
-.portfolio-images {
-    padding: 0 25px;
+
+@media only screen and (max-width: 640px) {
+    
+
+    .portfolio-item {
+        width: calc(100% - 50px);
+    }
+
+    .portfolio-images {
+        width: 100%;
+        height: auto;
+    }
+
+    h3 {
+        font-size: calc(0.045 * 100vw);
+    }
+
+    .portfolio-name {
+        bottom: 16%;
+        padding: 14px 0;
+    }
 }
