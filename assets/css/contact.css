@@ -41,9 +41,3 @@ textarea {
 .input-width {
     width: 98%;
 }
-
-@media only screen and (max-width: 640px) {
-    html, body {
-        height: calc(100% - 85px);
-    }
-}

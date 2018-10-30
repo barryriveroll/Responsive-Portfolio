@@ -150,7 +150,7 @@ footer {
     }
 
     footer {
-        margin-top: -53px;
+        margin-top: -52px;
     }
 
     h2 {
@@ -164,7 +164,6 @@ footer {
     }
 
     h1 {
-        position: static;
         width: 100%;
         text-align: center;
         padding-left: 0;
@@ -177,12 +176,8 @@ footer {
     }
 
     header {
-        position: absolute;
+        position: static;
         padding-bottom: 60px;
-    }
-
-    section {
-        margin-top: 160px;
     }
 
     #menu {
@@ -203,7 +198,7 @@ footer {
     }
 
     html, body {
-        height: calc(100% - 83px);
+        height: calc(100% - 84px);
     }
 
     nav {
